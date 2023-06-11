@@ -1,14 +1,4 @@
-/**
-* Template Name: eBusiness
-* Updated: Mar 10 2023 with Bootstrap v5.2.3
-* Template URL: https://bootstrapmade.com/ebusiness-bootstrap-corporate-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 html,
 body {
   height: 100%;
@@ -1229,6 +1219,16 @@ div#preloader {
   font-size: 24px;
   margin-right: 5px;
 }
+.pri_table_list li.check-head{
+  color: #3EC1D5;
+  line-height: 0;
+  font-size: 24px;
+  margin-right: 5px;
+  display: flex;
+  justify-content: center;
+  
+  
+}
 
 .pri_table_list li.cross {
   text-decoration: line-through;
@@ -1324,7 +1324,7 @@ div#preloader {
 .testimonials {
   padding: 80px 0;
   /* background: url("../img/background/slider-bg.jpg") no-repeat; */
-  background: url("https://media.istockphoto.com/id/1407411558/photo/minimal-abstract-cosmetic-background-for-product-presentation-cosmetic-bottle-podium-and.jpg?b=1&s=612x612&w=0&k=20&c=YgW8UV5452m2ebZulPGpqtFYP1dul2I6BLDDPbGtBnE=") no-repeat;
+  background: url("https://c4.wallpaperflare.com/wallpaper/914/746/419/abstract-digital-art-minimalism-simple-background-wallpaper-preview.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;

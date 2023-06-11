@@ -1,14 +1,4 @@
-/**
-* Template Name: eBusiness
-* Updated: Mar 10 2023 with Bootstrap v5.2.3
-* Template URL: https://bootstrapmade.com/ebusiness-bootstrap-corporate-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 html,
 body {
   height: 100%;
@@ -579,10 +569,10 @@ div#preloader {
   background-repeat: no-repeat;
 }
 
-#hero .carousel-item::before {
+/* #hero .carousel-item::before {
   content: "";
   background-color: rgba(0, 0, 0, 0.7);
-}
+} */
 
 #hero .carousel-container {
   display: flex;
@@ -759,6 +749,7 @@ div#preloader {
 
 .row.second-row {
   margin-top: 40px;
+  
 }
 
 .section-head>h2 {
@@ -1229,6 +1220,16 @@ div#preloader {
   font-size: 24px;
   margin-right: 5px;
 }
+.pri_table_list li.check-head{
+  color: #3EC1D5;
+  line-height: 0;
+  font-size: 24px;
+  margin-right: 5px;
+  display: flex;
+  justify-content: center;
+  
+  
+}
 
 .pri_table_list li.cross {
   text-decoration: line-through;
@@ -1322,9 +1323,11 @@ div#preloader {
 # Testimonials
 --------------------------------------------------------------*/
 .testimonials {
+  margin-top: 20px;
   padding: 80px 0;
   /* background: url("../img/background/slider-bg.jpg") no-repeat; */
-  background: url("https://media.istockphoto.com/id/1407411558/photo/minimal-abstract-cosmetic-background-for-product-presentation-cosmetic-bottle-podium-and.jpg?b=1&s=612x612&w=0&k=20&c=YgW8UV5452m2ebZulPGpqtFYP1dul2I6BLDDPbGtBnE=") no-repeat;
+  background: url("https://images.pexels.com/photos/1279813/pexels-photo-1279813.jpeg?auto=compress&cs=tinysrgb&w=300") no-repeat;
+  
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -1348,6 +1351,7 @@ div#preloader {
 .testimonials .testimonial-item {
   text-align: center;
   color: #fff;
+  
 }
 
 .testimonials .testimonial-item .testimonial-img {
@@ -1393,6 +1397,7 @@ div#preloader {
   font-style: italic;
   margin: 0 auto 15px auto;
   color: #eee;
+  font-size: larger;
 }
 
 .testimonials .swiper-pagination {
