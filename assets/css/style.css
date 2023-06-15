@@ -1,4 +1,108 @@
+/*coming soon 
 
+*/
+.comingsoon {
+  margin-top: 20px;
+  padding: 80px 0;
+  /* background: url("../img/background/slider-bg.jpg") no-repeat; */
+  background: url("https://images.pexels.com/photos/1279813/pexels-photo-1279813.jpeg?auto=compress&cs=tinysrgb&w=300") no-repeat;
+  
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+
+.comingsoon::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.comingsoon .comingsoon-carousel,
+.comingsoon .comingsoon-slider {
+  overflow: hidden;
+}
+
+.comingsoon .testimonial-item {
+  text-align: center;
+  color: #fff;
+  
+}
+
+.comingsoon .testimonial-item .testimonial-img {
+  width: 100px;
+  border-radius: 50%;
+  border: 6px solid rgba(255, 255, 255, 0.15);
+  margin: 0 auto;
+}
+
+.comingsoon .testimonial-item h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+  color: #fff;
+}
+
+.comingsoon .testimonial-item h4 {
+  font-size: 14px;
+  color: #ddd;
+  margin: 0 0 15px 0;
+}
+
+.comingsoon .testimonial-item .quote-icon-left,
+.comingsoon .testimonial-item .quote-icon-right {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 26px;
+}
+
+.comingsoon .testimonial-item .quote-icon-left {
+  display: inline-block;
+  left: -5px;
+  position: relative;
+}
+
+.comingsoon .testimonial-item .quote-icon-right {
+  display: inline-block;
+  right: -5px;
+  position: relative;
+  top: 10px;
+}
+
+.comingsoon .testimonial-item p {
+  font-style: italic;
+  margin: 0 auto 15px auto;
+  color: #eee;
+  font-size: larger;
+}
+
+.comingsoon .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+.comingsoon .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: rgba(255, 255, 255, 0.5);
+  opacity: 1;
+}
+
+.comingsoon .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #3ec1d5;
+}
+
+@media (min-width: 992px) {
+  .comingsoon .testimonial-item p {
+    width: 80%;
+  }
+}
+/*coming soon 
+
+*/
 html,
 body {
   height: 100%;
@@ -934,7 +1038,7 @@ div#preloader {
 
 
 /*--------------------------------------------------------------
-# Testimonials
+# comingsoon
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
