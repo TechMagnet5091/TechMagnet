@@ -6,6 +6,7 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
+  
   background-color: #f5f5f5;
 }
 
@@ -56,6 +57,11 @@
 /*--------------------------------------------------------------
 # year wise courses
 --------------------------------------------------------------*/
+#ums-lpu{
+  background-color:#EF7F1A;
+  padding: 10px;
+  
+}
 
 
 html,
