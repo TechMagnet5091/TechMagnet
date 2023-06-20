@@ -208,6 +208,26 @@
     }
 
   });
+  /*code snippets */
+  function copyCode() {
+    var codeElement = document.getElementById('codeSnippet');
+    var codeText = codeElement.textContent;
+
+    // Create a temporary textarea to hold the code text
+    var tempTextArea = document.createElement('textarea');
+    tempTextArea.value = codeText;
+    document.body.appendChild(tempTextArea);
+
+    // Copy the code text from the textarea
+    tempTextArea.select();
+    document.execCommand('copy');
+
+    // Remove the temporary textarea
+    document.body.removeChild(tempTextArea);
+
+    // Show a confirmation message
+    alert('Code copied to clipboard!');
+  }
 
   /**
    * Initiate portfolio lightbox 
