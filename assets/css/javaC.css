@@ -1,140 +1,106 @@
 /*-------Java Content CSS------- */
 /* code snippets starts*/
- /* CSS for the code snippet */
-/* Media query for small screens */
-@media only screen and (max-width: 767px) {
-  .code-snippet {
-    /* Adjust the code snippet layout for small screens */
-    /* Add relevant styles for small screens */
-  }
+*{
+  margin: 0;
+  padding: 0;
 }
-
-/* Media query for medium screens */
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-  .code-snippet {
-    /* Adjust the code snippet layout for medium screens */
-    /* Add relevant styles for medium screens */
-  }
-}
-
-/* Media query for large screens */
-@media only screen and (min-width: 1024px) {
-  .code-snippet {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  }
-  
-  .copy-button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #f1f1f1;
-    padding: 5px;
-    border-radius: 50%;
-    cursor: pointer;
-  }
-  
-  .copy-button img {
-    width: 20px;
-    height: 20px;
-  }
-}
-
- .code-snippet {
+.code-snippet {
   position: relative;
-  /* background-color: #f1f1f1; */
   background-color: goldenrod;
   padding: 10px;
   border-radius: 5px;
   font-family: monospace;
 }
+.contentText, p{
+  display: block;
+  
+
+
+}
 
 /* CSS for the copy button */
-.copy-button {
+ .copy-button {
   position: absolute;
   top: 5px;
   right: 5px;
   cursor: pointer;
 }
 .codes{
-  color: black;
+  color:#0d2529;
+  font-size: 20px;
+  
+
+  
 }
+@media(max-width:640px){
+  .main{
+    display: flex;
+    flex-direction: column;
+  }
+} 
 
 /* code snippets ends*/
-.heads{
-  font-size: 30px;
-  color: #18d26e;
-}
 
 
-.liteam{
-  text-decoration: none;
-  color: hsl(189, 52%, 11%);
-  margin:10px;
+/* Common styles for all screen sizes */
+.head-new {
+  background-color: cyan;
+  padding: 15px;
 }
-.contentText{
+
+.imgth {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  max-height: 400px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.contentText {
   font-size: 20px;
   margin-top: 30px;
-  align-content: center;
-
+  /* align-content: center; */
 }
- /* CSS for the sidebar */
- .sidebar {
+
+.liteam {
+  text-decoration: none;
+  color: hsl(189, 52%, 11%);
+  margin: 10px;
+}
+
+.sidebar {
   margin-top: 20px;
   width: 200px;
-  height: 100vh;
+  height:86rem;
   background-color: #f1f1f1;
   overflow-y: auto;
   float: left;
 }
-.imgth{
-  height: 400px;
-  width: 700px;
-  
-}
 
-#contentImage{
-  
+#contentImage {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* CSS for the content area */
 .content {
-  margin-left: 200px; /* Width of the sidebar */
+  margin-left: 0px;
   padding: 20px;
 }
-.head-new{
-    background-color: cyan;
-    margin-top:10px;
-    padding: 15px;
-  }
-
-.imgContainer{
-  margin-top: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
+.li-iteams{
+  margin: 10px;
+  color:#0d2529;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
   
 
 }
-.thumbnail{
-  height: 400px;
-  width: 100%;
-  margin-left: 400px;
-}
-.list{
-  list-style: none;
-  display: flex;
-  justify-content: left;
-  align-items: flex-start;
-}
+
+
+
+
   
   /*-------Java Content CSS------- */
   

@@ -254,4 +254,7 @@
     }
   });
 
+  /* Form validation*/
+  
+
 })()
